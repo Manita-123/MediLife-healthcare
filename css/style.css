@@ -1,0 +1,22 @@
+/* header */
+@import url("index.css");
+
+.fixed{position: sticky; top: 0; left: 0; right: 0; border-bottom: solid 2px var(--s);  background-color: var(--w); z-index: 100; }
+header{padding: 2rem 0; }
+header h1 span{color: #000;}
+header h1 {color: var(--s);}
+
+p{margin-top: 1rem;}
+
+nav ul{gap: 2.4rem; font-weight: 600; }
+nav ul li a{color: #000;}
+header a:hover , nav a.active{color:var(--s); font-size: 1.4rem;}
+header button{color: var(--w); background-color: var(--s); border: none; border-radius: 9px; padding:  10px; font-weight: 600;}
+
+
+/* footer */
+
+footer .row{ margin:3rem 2rem;  color: #2a2929; }
+footer .row li{margin-top: 1rem; white-space: nowrap;}
+footer .flex{ padding: 1rem;}
+footer .flex p span{color: var(--s); font-weight: 600;}

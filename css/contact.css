@@ -1,0 +1,24 @@
+@import url("index.css");
+@import url('style.css');
+
+.text-center h2{font-size: 3rem; font-family: var(--ff);  margin: 3rem 0 1rem 0;}
+main .head{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: 1.4rem;}
+.text-center p {margin: 0 7rem 4rem 7rem; line-height: 2.5rem; font-size: 1.5rem; color: #444;}
+
+.cards .col-4{background-color: var(--w); text-align: center; padding: 3rem; border-radius: 10px; margin: 3rem 1rem 7rem 2rem;}
+.cards .col-4:hover{box-shadow: 1px 0 3px 1px inset #169f91;}
+.cards i{font-size: 2.2rem; background-color: var(--s); padding: 1rem 3rem 1rem 1rem; border-radius: 50%; color: var(--w); margin-bottom: 1.2rem;}
+
+iframe{border: none; border-radius: 10px; padding: 0 2rem;}
+.forms{ background-color: var(--w); padding: 1.2rem; border-radius: 10px;}
+.forms:hover{transition:all 0.4s step-end;}
+
+form .flex input{width: 48%; padding:1.2rem ; border-radius: 5px;}
+form input , form textarea{padding: 1.2rem; margin-top: 2rem; border-radius: 5px; border: solid 1px #aaa7a7; }
+form input:hover , form textarea:hover{box-shadow: 0 0 4px 1px inset rgb(122, 173, 224) ;}
+form textarea{height: 15rem;}
+button{margin-top: 2rem; width: 160px; border: none; background-color: var(--s); color: var(--w); padding: 1.2rem 2rem; margin-left: 16rem; border-radius: 30px; font-weight: 600; font-size: 1.3rem;}
+
+.socials{margin: 6rem 0;}
+.socials i{background-color: var(--w); padding: 1.5rem 3rem 1.5rem 1.5rem; border-radius: 50%; font-size: 1.6rem; color: var(--s); font-weight: 700;}
+.socials i:hover{color: var(--w); background-color: var(--s); transform: translate(5px, 2px)  }

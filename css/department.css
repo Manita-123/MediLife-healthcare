@@ -1,0 +1,18 @@
+@import url("index.css");
+@import url('style.css');
+
+.text-center h2{font-size: 3rem; font-family: var(--ff);  margin: 3rem 0 1rem 0;}
+main .head{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: 1.4rem;}
+.text-center p  {margin: 0 7rem 4rem 7rem; line-height: 2.5rem; font-size: 1.5rem; color: #444;}
+
+
+.cards{ border-radius: 20px; gap: 3rem;}
+.cards .card-desc{margin-right: 4rem; background-color: var(--w); border-radius: 10px 10px 0 0; padding: 1.5rem;}
+.card:hover i {font-size: 2.5rem; background-color: #87d8d0 ;  color: var(--w);}
+.card:hover {box-shadow: indianred;}
+
+.cards i{font-size: 2.3rem; background-color: #eef6f5 ; color: var(--s);  padding: 1.4rem 3.7rem 1rem 1rem; border-radius: 20px;}
+.cards h3+p{margin-top: 10px; text-transform: uppercase; color: rgb(22, 21, 22);}
+.para{line-height: 2.5rem; font-size: 1.5rem; color: #444; margin-bottom: 1.2rem;}
+.cards button{background-color: #d3efed; color: var(--s); border: none; padding: 0.4rem 1rem; border-radius: 20px; font-weight: 600; margin-bottom: 2rem;}
+.cards img{ height: 50%; width: 92%; object-fit: cover; border-radius:  0 0 10px 10px;}

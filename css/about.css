@@ -1,0 +1,37 @@
+@import url("index.css");
+@import url('style.css');
+
+.text-center h2{font-size: 3rem; font-family: var(--ff);  margin: 3rem 0 1rem 0;}
+main .head{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: 1.4rem;}
+.text-center p , .section-1 p{margin: 0 7rem 4rem 7rem; line-height: 2.5rem; font-size: 1.5rem; color: #444;}
+
+
+
+.section-1{margin-bottom: 6rem;}
+.section-1 .section-1-card{margin: 6rem 0;}
+.section-1 .section-1-card p{margin: 1rem; }
+img{border-radius: 1rem; height:70%;}
+.secondary-image{margin-top: 1.9rem; }
+.show-card{background-color: var(--w); padding: 2rem; margin-top: 2.4rem; border-radius: 10px;}
+.show-card p{margin: 0;}
+.show-card .big{color: var(--s); font-size: 3.6rem;}
+
+.cards{margin-bottom: 8rem;}
+.cards i{height: 5rem; width: 5rem; background-color: var(--s); font-size: 2rem; color: var(--w); padding: 1.4rem; border-radius: 50%; margin-bottom: 1rem;}
+.cards h4{font-size: 2rem; font-weight: 500; font-family: var(--ff); margin-bottom: 0.4rem;}
+.cards p{margin: 0 1.4rem; }
+
+.card{margin: 6rem 0;}
+.card .col-2 {border: solid 1px #e0dada; padding: 3rem 0; background-color: #e1e5e6; border-radius: 5px;}
+.card .col-2:hover {border: solid 1px var(--s); box-shadow: 1px 1px 1px 1px #81e9d4; margin: 1px;}
+.card .col-2 i{font-size: 2.2rem; color: var(--s);}
+
+.section-3 .row{margin: 6rem 9rem;}
+.section-3 .row .col-2{border: solid 1px #e0dada; background-color: var(--w); font-family: var(--ff); padding: 2rem 2.5rem 2rem 3.7rem; border-radius: 15px; color: darkgrey;}
+.section-3 .row .col-2:hover{box-shadow: 1px 2px 1px 1px #e0dada; margin: 1px; font-size: 1.4rem; }
+.col-2:hover .p1{color:aqua}
+.col-2:hover .p2{color: blue; font-weight: 700;}
+.col-2:hover .p3{color: brown; font-weight: 700;}
+.col-2:hover .p4{color: rgb(244, 182, 102); font-weight: 700;}
+.col-2:hover .p5{color: chocolate;}
+.col-2:hover .p6{color: #000; font-weight: 700;}

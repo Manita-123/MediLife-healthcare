@@ -1,0 +1,32 @@
+@import url("index.css");
+@import url('style.css');
+
+.text-center h2{font-size: 3rem; font-family: var(--ff);  margin: 3rem 0 1rem 0;}
+main .head{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: 1.4rem;}
+.text-center p {margin: 0 7rem 4rem 7rem; line-height: 2.5rem; font-size: 1.5rem; color: #444;}
+
+.cards{margin-top: 7rem; gap: 4rem;}
+.cards .col-4{padding: 3rem 1.4rem; border-radius: 1rem; background-color: var(--w);}
+.cards .col-4:hover{border: solid 2px #044063; box-shadow: 1px 1px 4px 1px #044063 inset;}
+.cards .col-4:hover .m-btn{border: none; background-color: var(--s); color: var(--w);}
+.cards .col-4 .flex>i{font-size: 2.5rem; background-color: rgb(3, 86, 128);  padding: 1.5rem 3.9rem 1.5rem 1.5rem; color: var(--w); border-radius: 50%;}
+.cards .col-4 .flex>i+button{border: none; color:rgb(3, 86, 128); font-weight: 700; background-color: rgb(221, 220, 228); height: 3rem; border-radius: 20px; padding: 1rem;}
+
+.cards h3{font-size: 2.1rem; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin: 1rem 0;}
+.cards h3+p{color: #5e5c5c; font-size: 1.4rem;}
+.cards .s-about{white-space: nowrap; font-size: 0.9rem; color: #4d4d4f ; font-weight: 700; gap: 10px;}
+.s-about p{background-color: rgb(245, 240, 240); border-radius: 10px; padding: 5px; margin-top: 2rem;}
+
+.m-btn{border: solid 2px #5e5c5c; width: 100%; margin-top: 2rem; padding: 1.3rem 0; border-radius: 20px; font-weight: 600; }
+.e-btn{background-color: rgb(215, 58, 58); width: 100%; margin-top: 2rem; padding: 1.3rem 0; border-radius: 20px; color: var(--w); font-weight: 600; border: none;}
+
+.e-btn:hover{background-color: var(--s); border: solid 2px red;}
+
+.our-services{background-color: var(--w); color: #222; padding: 4rem; box-shadow: 1px 1px 4px 2px #9b9bd0; margin: 6rem 0; border-radius: 20px;}
+
+.box{background-color: var(--s); color: var(--w); padding: 6rem 4rem; border-radius: 30px; margin-bottom: 7rem;}
+.box h3{font-size: 2.7rem;}
+.box .btn-1{border: none; background-color: var(--w); color: #044063; padding: 1.6rem 2rem; border-radius: 30px; font-weight: 700;}
+.box .btn-2{border: solid 2px var(--w); padding: 1.5rem 2rem; color: var(--w); background-color: #53b6b3; border-radius: 30px; font-weight: 700;}
+
+.box .btn-1:hover , .btn-2:hover{border: solid 2px var(--w); color: var(--w); background-color: #53b6b3; font-size: 1.2rem; }

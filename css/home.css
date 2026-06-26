@@ -1,0 +1,100 @@
+/* Home */
+@import url("index.css");
+@import url('style.css');
+
+
+.first , .featured ,.cards , .care {margin-bottom: 6rem;}
+.top-img{margin: 6rem 0 6rem 4rem;  border-radius: 1.5rem; position: relative; }
+.top-img img{border-radius: 2.5rem;}
+.top-img img:hover{ transform: translate(10px, -10px);}
+
+
+.img-card , [class^="img-card"]{padding: 1.4rem; background-color: #f2f5f5; border: solid 2px #f2f0f0; border-radius: 1rem; white-space: nowrap; }
+.img-card i , [class^="img-card"] i {font-size: 2.2rem; color: var(--s); background-color: #d3eff1; padding: 1rem 3rem 0 1rem; border-radius: 8px; height: 4rem;}
+
+.big{font-size: 2.5rem; color: var(--s);}
+.img-card-top{position: absolute; top: 2rem; left: 0;  gap: 2rem; padding: 2rem;}
+.img-card-bottom{position: absolute; top: 30rem; left: 16.5rem; height: 10rem; gap: 2rem; padding: 2rem; border: solid 2px #a6dada;}
+
+
+.desc{margin: 6rem 0 6rem 4rem;}
+.desc > button , .first-btn{background-color: var(--s); border: none; color:var(--w); padding: 1rem; border-radius: 50px; font-weight: 600;}
+.desc h2 , .departments h2 , .find h3 {font-size: 3.7rem; margin: 2rem 0; font-family: var(--ff);}
+h2+p , h3+p ,.featured p{color: #666; margin-bottom: 2rem; line-height: 2.5rem;}
+.btns button{border-radius: 10px; padding: 1.7rem; margin-top: 1rem;}
+.btns .second-btn{border: solid 2px #c4d0d0; padding: 1rem;}
+.desc .flex a{color: #000;}
+.desc .flex a:hover{color: var(--s); font-size: 1.4rem;}
+.texts h2{color: var(--s); font-size: 3.8rem; font-family:'Gill Sans','Trebuchet MS', sans-serif; }
+.texts h2+div , .find .text-center p {color: #666; width: 77%; font-size: 1.5rem; margin: auto; line-height: 3.2rem; margin-bottom: 4rem;}
+
+.primary-image img , .care img{ width: 100%; height: 100%; object-fit: cover; border-radius: 15px;}
+.row .col-7 img:hover { transform: scale(1); }
+.row .col-7 img ,  .featured img{border-radius: 20px; transition: transform 0.3s ease;}
+
+.lists{margin-left: 2rem; font-size: 1.5rem; color: #1f7676}
+.lists i{margin-right: 1rem;}
+
+.featured .desc{margin-bottom: 1.9rem;}
+
+.featured h3 {font-size: 1.2rem; letter-spacing: 2px; color: var(--s); margin-bottom: 1rem;}
+.featured h4 , .find h2{font-size: 3.4rem; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+
+.explore {background-color: #e0f5f5; padding: 6rem 3rem; border-radius: 1rem; margin-bottom: 6rem;}
+.explore h2 , .find h2 , .care h2{font-size: 3rem; font-weight: 400; font-family: serif;}
+.explore p , .care p{font-size: 1.6rem;}
+.explore button  {background-color: var(--s); color: var(--w); font-weight: 600; border: none; padding: 1.8rem 3.8rem; font-size: 1.3rem;}
+.explore button:hover {background-color: var(--w); border: solid 2px var(--s); color: var(--s);}
+
+.departments .row{margin-top: 4rem; gap: 3.5rem;}
+.departments .row .col-4{background-color: var(--w); border-radius: 15px; padding-bottom:2rem; }
+.departments .row .col-4:hover{box-shadow: 2px 1px 7px 6px #bdbebe;}
+.departments .row img{height: 16rem; width: 100%; margin-bottom: 1rem; object-fit: cover; box-shadow: 0 12px 7px -5px rgba(4, 1, 1, 0.3); border-radius: 15px 15px 0 0; }
+
+.departments .img-desc{padding: 1rem; }
+.departments .img-desc p{margin-bottom: 1rem;}
+.departments .img-desc a{ color: var(--s);}
+
+
+.cards .card{border: none; padding: 2rem; background-color: #f1f7f8; }
+.cards .card:hover{ border-top-style: inset; border-color: #b9f1f1; }
+.card i{margin-bottom: 1rem;  font-size: 3rem; padding: 1.3rem 4.3rem 3.8rem 1.3rem; border-radius: 50%;}
+.card-desc{width: 100%; padding: 0 2rem; white-space: nowrap;}
+.card-desc .flex :first-child{font-size: 2.7rem; color: var(--s); font-weight: 600;}
+.card{border-left: solid 4px var(--s); border-radius: 10px; background-color: var(--w); padding: 1rem; margin-left: 3rem;}
+.card i{font-size: 2.2rem; color: var(--s); background-color: #d3eff1; padding: 1rem 3rem 0 1rem; border-radius: 8px; height: 4rem;}
+
+
+.find{margin:  6rem 5rem;}
+.find div.text-center{margin-top: 5rem; }
+.find form>.flex{ width: 100%; gap: 4rem; background-color: var(--w); padding: 5rem 0;  border-radius: 10px; border: solid 1px #e3e2e2;}
+.find form input , .find form select{height: 4rem; padding: 2rem; border-radius: 10px; width: 260px; border: solid 1px #bdbebe;}
+.find form input:hover , .find form select:hover , .find button:hover{box-shadow: 1px 1px 2px 3px #a0d3d3; border: none;}
+.find button{font-size: 1.7rem; color: var(--w); background-color: var(--s); border: none; padding: 10px; border-radius: 6px; margin-top: 1.8rem;}
+
+.profile {margin-bottom: 4rem;}
+.profile img {height: 75px; width: 75px; border-radius: 1rem;}
+.profile .col-4{ padding: 3rem 3rem 0 ;border-radius: 10px; background-color: #fff;}
+.profile .col-4:hover{border:solid 2px  #2ea2a2 ;}
+.profile .flex p{margin-bottom: 0; line-height: 1.5rem;}
+.profile .flex p span{background-color: #d1e9f4; padding: 3px; border-radius: 10px; border: solid 1px #a0d3d3; margin-right:1rem; font-size: 1rem; color: #2ea2a2; }
+
+.star{color:rgb(244, 216, 61); margin-top: 2rem  ;}
+.p1{margin-top:2rem ;}
+.profile .btns  button{width: 180px; height: 3.3rem; margin-top: 2rem;}
+.profile .btns  .first-btn{padding-top: 1rem;}
+
+.browse button{padding: 1.6rem 2.4rem; border: solid 2px #2ea2a2; color: #2ea2a2; font-weight: 600; border-radius: 15px; background-color: var(--w); margin-bottom: 6rem; }
+.browse button:hover{color: var(--w); background-color: var(--s);}
+
+.care{gap: 4rem;}
+.block2{border-top: solid 2px #a2a0a0; border-bottom: solid 2px #9e9d9d; margin-bottom: 6rem; padding:  3rem 0;}
+/* .card i{margin-bottom: 1rem;  font-size: 3rem; padding: 1.3rem 4.3rem 3.8rem 1.3rem; border-radius: 50%;} */
+
+.block3 {background-color: #039494; color: var(--w);  padding: 3.5rem; border-radius: 1rem; margin-bottom: 6rem; }
+ .block3 p , .block3 a{color: var(--w);}
+.block3   i { font-size: 2rem; background-color: #04b4b4; height: 4rem; width: 4rem; padding-top: 1rem; border-radius: 50%; }
+.phone-card{background-color: var(--w); color: #000; padding: 1rem 2rem; border-radius: 20px;}
+.phone-card i{background-color: var(--w); color: #000;}
+.phone-card p{color: #000;}
