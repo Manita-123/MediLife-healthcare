@@ -17,7 +17,7 @@ form .flex input{width: 48%; padding:1.2rem ; border-radius: 5px;}
 form input , form textarea{padding: 1.2rem; margin-top: 2rem; border-radius: 5px; border: solid 1px #aaa7a7; }
 form input:hover , form textarea:hover{box-shadow: 0 0 4px 1px inset rgb(122, 173, 224) ;}
 form textarea{height: 15rem;}
-button{margin-top: 2rem; width: 160px; border: none; background-color: var(--s); color: var(--w); padding: 1.2rem 2rem; margin-left: 16rem; border-radius: 30px; font-weight: 600; font-size: 1.3rem;}
+form button{margin-top: 2rem; width: 160px; border: none; background-color: var(--s); color: var(--w); padding: 1.2rem 2rem; margin-left: 16rem; border-radius: 30px; font-weight: 600; font-size: 1.3rem;}
 
 .socials{margin: 6rem 0;}
 .socials i{background-color: var(--w); padding: 1.5rem 3rem 1.5rem 1.5rem; border-radius: 50%; font-size: 1.6rem; color: var(--s); font-weight: 700;}
