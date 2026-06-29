@@ -34,3 +34,7 @@ img{border-radius: 1rem; height:70%;}
 .col-2:hover .p4{color: rgb(244, 182, 102); font-weight: 700;}
 .col-2:hover .p5{color: chocolate;}
 .col-2:hover .p6{color: #000; font-weight: 700;}
+
+@media screen and (max-width:767px){
+    
+}

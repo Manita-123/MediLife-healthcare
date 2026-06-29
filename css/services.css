@@ -16,7 +16,7 @@ main .head{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', '
 .cards h3+p{color: #5e5c5c; font-size: 1.4rem;}
 .cards .s-about{white-space: nowrap; font-size: 0.9rem; color: #4d4d4f ; font-weight: 700; gap: 10px;}
 .s-about p{background-color: rgb(245, 240, 240); border-radius: 10px; padding: 5px; margin-top: 2rem;}
-.cards button.active{color:green; border: none; background-color:#25cc5f; font-weight: 700; border-radius: 20px; padding: 1rem 1.5rem;}
+.cards button.active{color:green; border: none; background-color:#25cc5f; font-weight: 700; border-radius: 20px; padding: 0 10px; height: 2rem;}
 
 .m-btn{border: solid 2px #5e5c5c; width: 100%; margin-top: 2rem; padding: 1.3rem 0; border-radius: 20px; font-weight: 600; }
 .e-btn{background-color: rgb(215, 58, 58); width: 100%; margin-top: 2rem; padding: 1.3rem 0; border-radius: 20px; color: var(--w); font-weight: 600; border: none;}

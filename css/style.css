@@ -2,7 +2,7 @@
 @import url("index.css");
 
 .fixed{position: sticky; top: 0; left: 0; right: 0; border-bottom: solid 2px var(--s);  background-color: var(--w); z-index: 100; }
-header{padding: 2rem 0; }
+header{padding: 2rem 0; position: relative; }
 header h1 span{color: #000;}
 header h1 {color: var(--s);}
 
@@ -13,6 +13,10 @@ nav ul li a{color: #000;}
 header a:hover , nav a.active{color:var(--s); font-size: 1.4rem;}
 header button{color: var(--w); background-color: var(--s); border: none; border-radius: 9px; padding:  10px; font-weight: 600;}
 
+.nav-menu{display: flex;}
+
+.menu{display: none; color:var(--s); background-color: var(--w);}
+
 
 /* footer */
 
@@ -20,3 +24,15 @@ footer .row{ margin:3rem 2rem;  color: #2a2929; }
 footer .row li{margin-top: 1rem; white-space: nowrap;}
 footer .flex{ padding: 1rem;}
 footer .flex p span{color: var(--s); font-weight: 600;}
+
+
+@media screen and (max-width:767px){
+    .nav-menu{display: none;}
+    .nav-menu.show{display: flex; flex-direction: column; position: absolute; left: 20rem; top: 5rem; background-color: var(--w); border-radius: 10px; padding: 1rem 2rem; border: solid 2px var(--s);}
+    .nav-menu li:hover{border-bottom: solid 2px var(--s) ;}
+.menu{display: block;}
+}
+
+@media screen and (max-width:480px){
+    .nav-menu.show{left: 8rem;}
+}

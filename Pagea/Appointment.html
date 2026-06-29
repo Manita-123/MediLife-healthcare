@@ -15,7 +15,7 @@
             <header class="flex justify-space-bet align-items">
                 <h1><span>Medi</span>Life</h1>
                 <nav>
-                    <ul class="flex">
+                    <ul class="nav-menu">
                         <li><a href="../index.html">Home</a></li>
                         <li><a href="About.html">About</a></li>
                         <li><a href="Deparment.html">Departments</a></li>
@@ -24,6 +24,8 @@
                         <li><a href="Contact.html">Contact</a></li>
                     </ul>
                 </nav>
+
+                <button type="button" title="menu" class="menu"><i class="fa-solid fa-bars"></i></button>
 
                 <a href="Appointment.html"><button type="button">Appointment</button></a>
 
@@ -86,17 +88,45 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <form >
+                    <form>
                         <div class="flex">
-                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Your Full Name" required>
+                            <input type="email" placeholder="Your Email" required>
                         </div>
+                        <div class="flex">
+                            <input type="tel" placeholder="Your Phone Number" required>
+                            <div class="flex fdir-col g-1">
+                                <select title="medical" name="medical">
+                                    <option selected disabled>Select Deparment </option>
+                                    <option value="Cardio">Cardiology</option>
+                                    <option value="Neuro">Neurology</option>
+                                    <option value="Ortho">Ordhopedic </option>
+                                    <option value="Pediatric"> Pediatric </option>
+                                    <option value="Dermo">Dermatological </option>
+                                    <option value="Oncolo">Oncological </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <input type="date" placeholder="dd-mm-yyyy">
+                            <div class="flex fdir-col g-1">
+                                <select title="medical" name="medical" id="medical">
+                                    <option selected disabled>Select Doctors </option>
+                                    <option value="Cardio">Dr. Naoh Turner </option>
+                                    <option value="Neuro">Dr. Sofia Bennett</option>
+                                    <option value="Ortho">Dr. Ethan Cole</option>
+                                    <option value="Pediatric"> Dr. Amelia Brooks</option>
+                                </select>
+                            </div>
+                        </div>
+                        <textarea name="messare"
+                            placeholder="Please describe your symptons or reason for visit(optional)"></textarea>
+                        <button type="button"><i class="fa-solid fa-briefcase-medical"></i>Book Appointment</button>
                     </form>
                 </div>
             </div>
         </div>
     </main>
-
-
 
     <footer>
         <hr />
@@ -156,6 +186,8 @@
         </div>
 
     </footer>
+
+    <script src="/js/app.js"></script>
 
 </body>
 
