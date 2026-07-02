@@ -1,10 +1,6 @@
 @import url("index.css");
 @import url('style.css');
 
-.text-center h2{font-size: 3rem; font-family: var(--ff);  margin: 3rem 0 1rem 0;}
-main .head{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: 1.4rem;}
-.text-center p {margin: 0 7rem 4rem 7rem; line-height: 2.5rem; font-size: 1.5rem; color: #444;}
-
 .cards{margin-top: 7rem; gap: 4rem;}
 .cards .col-4{padding: 3rem 1.4rem; border-radius: 1rem; background-color: var(--w);}
 .cards .col-4:hover{border: solid 2px #044063; box-shadow: 1px 1px 4px 1px #044063 inset;}

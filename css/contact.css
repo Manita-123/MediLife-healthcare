@@ -1,9 +1,6 @@
 @import url("index.css");
 @import url('style.css');
 
-.text-center h2{font-size: 3rem; font-family: var(--ff);  margin: 3rem 0 1rem 0;}
-main .head{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: 1.4rem;}
-.text-center p {margin: 0 7rem 4rem 7rem; line-height: 2.5rem; font-size: 1.5rem; color: #444;}
 
 .cards .col-4{background-color: var(--w); text-align: center; padding: 3rem; border-radius: 10px; margin: 3rem 1rem 7rem 2rem;}
 .cards .col-4:hover{box-shadow: 1px 0 3px 1px inset #169f91;}

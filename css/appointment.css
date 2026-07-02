@@ -1,9 +1,22 @@
 @import url("index.css");
 @import url('style.css');
 
-.text-center h2{font-size: 3rem; font-family: var(--ff);  margin: 3rem 0 1rem 0;}
-main .head{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: 1.4rem;}
-.text-center h2+p {margin: 0 7rem 4rem 7rem; line-height: 2.5rem; font-size: 1.5rem; color: #444;}
 
-.content-box{margin: 7rem 1rem;}
+.content-box , .process{margin: 7rem 0 ;}
+.content-box>.col-6 h2{font-size: 3rem; margin-bottom: 1.5rem;}
+.content-box h2+p{font-size: 1.5rem; margin-bottom: 1.5rem;}
+.content-box .show{margin: 2.4rem 0;}
+.content-box .show i{font-size: 1.7rem; background-color:#cae1e6; padding: 1.5rem 3rem 1.5rem 1.5rem; color: var(--s); border-radius: 50%;}
 
+.helpline{border-left: 4px solid var(--s); background-color: var(--w); padding: 2rem; border-radius: 1rem;}
+.helpline i , .helpline span{color: var(--s);}
+
+.content-box form{background-color: var(--w); border-radius: 1rem; padding: 2rem; box-shadow: 1px 1px 4px 4px #a2a3a3; width: 100%;  }
+.content-box form .flex , form textarea{width: 100%; gap: 2rem; margin-bottom: 1rem; }
+form .flex input , form .flex select{width: 97%; height: 4rem; border-radius: 10px; border: solid 1px #cbc8c8; padding: 0 1rem;}
+form textarea{border-radius: 10px; height: 16rem; padding: 1rem; border: solid 1px #cbc8c8;}
+form button{width: 100%; color: var(--w); background-color: var(--s); border: none; padding: 1rem 0; font-weight: 700;font-size: 1.3rem; border-radius: 10px; }
+
+.process button{background-color:var(--s) ; font-size: 1.5rem; border: none; color: var(--w); padding: 1rem 1.6rem; border-radius: 50%; margin-bottom: 4rem; }
+.process i{font-size: 3.4rem; color: var(--s); margin-bottom: 1.4rem;}
+.process h3{font-family:Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 1rem;}
